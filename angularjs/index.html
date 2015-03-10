@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JoyLabs assignment - Firstname Lastname</title>
+
+		<link rel="stylesheet" type="text/css" href="/assets/css/screen.css">
+	</head>
+
+	<body>
+		<div ng-app="ngAppAssignment">
+			<div ng-controller="assignmentController">
+				<p>Your implementation.</p>
+
+				{{user}}
+
+
+				<select
+					ng-model="year"
+					ng-change="updateList(year)"
+					ng-options="year for year in yearsList">
+					<option value="">All</option>
+				</select>
+
+				<ul>
+					<li ng-repeat="job in filteredList">
+						{{job}}
+					</li>
+				</ul>
+
+
+			</div>
+		</div>
+	</body>
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.5.0/lodash.min.js"></script>
+	<script type="text/javascript" src="/assets/js/app.js"></script>
+</html>
