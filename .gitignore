@@ -25,6 +25,7 @@ build/Release
 node_modules
 **/.sass-cache
 **/.sass-cache/*
+.DS_Store
 
 # Users Environment Variables
 .lock-wscript
