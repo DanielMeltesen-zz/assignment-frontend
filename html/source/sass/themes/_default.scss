@@ -16,8 +16,8 @@ $ghost       : #FAFAFA;
 $snow        : #F9F9F9;
 $vapor       : #F6F6F6;
 $white-smoke : #F5F5F5;
-$silver      : #EFEFEF;
-$smoke       : #EEEEEE;
+$silver      : #7b8192;
+$smoke       : #e8e8e8;
 $gainsboro   : #DDDDDD;
 $iron        : #CCCCCC;
 $base        : #AAAAAA;
@@ -30,6 +30,8 @@ $tuatara     : #444444;
 $oil         : #333333;
 $jet         : #222222;
 $black       : #000000;
+$button-default       : #f2f3f6;
+$button-blue       : #0084ff;
 
 // We use these as default colors throughout
 $primary-color: #008CBA;
@@ -40,7 +42,7 @@ $warning-color: #f08a24;
 $info-color: #a0d3e8;
 
 // We use these to control various global styles
-$body-bg: $white;
+$body-bg: $smoke;
 $body-font-color: $jet;
 $body-font-family: $font-family-sans-serif;
 $body-font-weight: $font-weight-normal;
@@ -79,7 +81,7 @@ $header-bottom-margin: .5rem;
 $header-text-rendering: optimizeLegibility;
 
 // We use these to control header font sizes
-$h1-font-size: rem-calc(44);
+$h1-font-size: rem-calc(23);
 $h2-font-size: rem-calc(37);
 $h3-font-size: rem-calc(27);
 $h4-font-size: rem-calc(23);

@@ -3,11 +3,72 @@
 	<head>
 		<title>JoyLabs assignment - Firstname Lastname</title>
 
-		<link rel="stylesheet" type="text/css" href="/assets/css/screen.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/app.css">
 	</head>
 
 	<body>
-		<p>Your implementation.</p>
+		<div class="cv">
+			<section class="cv__wrapper top">
+				<div class="cv__user">
+					<img src="assets/images/user.png">
+					<div>
+						<ul class="list">
+							<li><h1>Fornavn Efternavn</h1></li>
+							<li>By</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section class="cv__wrapper">
+				<div class="cv__cv">
+						<div class="cv__cv--heading left">
+							<ul class="list">
+								<li><h1>Headline</h1></li>
+								<li>Desc</li>
+							</ul>	
+						</div>
+						<div class="cv__cv--input right">
+							    <form class="cv__cv--dropdown">
+								    <select>
+									    <option>Choose</option>
+									    <option>Option 2</option>
+									    <option>Option 2</option>
+								    </select>
+							    </form>
+						</div>
+					</div>
+			</section>
+			<section class="cv__wrapper bottom">
+					<table class="cv__cv--table">
+						<thead>
+							<tr>
+								<th>Subject</th>
+								<th class="right">Date</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><span>Subject</span>, desc</td>
+								<td class="right"><span>#### - ####</span></td>
+							</tr>
+							<tr>
+								<td><span>Subject</span>, desc</td>
+								<td class="right"><span>#### - ####</span></td>
+							</tr>
+						</tbody>
+					</table>
+				<div class="cv__cta">
+					<a href="www.mydomain.com" class="button left">
+						<h1>Visit</h1>
+						www.domain.com
+					</a>
+					<a href="#" class="button blue right">
+						<h1>Download</h1>
+						Curiculum Vitae 2015
+					</a>
+				</div>
+			</section>
+		</div>
 	</body>
 
 	<script type="text/javascript" src="/assets/js/app.js"></script>
