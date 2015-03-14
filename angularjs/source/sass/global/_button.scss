@@ -1,0 +1,41 @@
+$ns: 'button';
+
+.#{$ns} {
+	width: 140px;
+	text-align: center;
+	padding: 13px 0 ;
+	background-color: #f2f3f6;
+	border-top: 1px solid $white;
+	outline: 1px solid $body-bg;
+	color: #000;
+	text-decoration: none;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 1);
+		-webkit-box-shadow: 0 3px 8px -6px black;
+		-moz-box-shadow: 0 3px 8px -6px black;
+	    box-shadow: 0 3px 8px -6px black;
+
+  	&:hover{
+  		background-color:$ghost;
+  	}
+	&.blue {
+	background-color: $button-blue;
+	border-top: 1px solid #40a3ff;
+	outline: 1px solid #0076e3; 
+	color: #aed8ff;
+	text-shadow: 0 1px 0 rgba(0, 106, 205, 1);
+		-webkit-box-shadow: 0 3px 8px -6px black;
+		-moz-box-shadow: 0 3px 8px -6px black;
+	    box-shadow: 0 3px 8px -6px black;
+	  	& h1{
+	  		color: $white;
+	  		}
+	  	&:hover{
+  			background-color: #359DFF; //darken ( $button-blue, 50% );
+  		}
+	}	  	
+}
+
+ 
+
+
+

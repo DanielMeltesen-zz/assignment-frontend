@@ -1,0 +1,16 @@
+$ns: 'list';
+
+.#{$ns}{
+	margin:	0;
+	& h1 {
+		font-size: 14px;
+		margin: 0;
+	}
+	& h2 {
+		font-size: 12px;
+		margin: 0;
+	}
+}
+
+
+
