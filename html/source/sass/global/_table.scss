@@ -97,14 +97,14 @@ border-collapse: collapse;
   
     th,
     td {
-      padding: $table-row-padding;
+      padding: $table-row-padding 15px;;
       font-size: $table-row-font-size;
       color: $table-row-font-color;
       text-align: $default-float;
       &.right {
         		text-align: right;
         	}
-      & span {font-weight: $table-head-font-weight;padding: 0 5px;}
+      & span {font-weight: $table-head-font-weight;}
     }
 
     &.even,
