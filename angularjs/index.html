@@ -22,24 +22,22 @@
 					</div>
 				</section>
 				<section class="cv__wrapper">
-					<div class="cv__cv">
-							<div class="cv__cv--heading left">
-								<ul class="list">
-									<li><h1>Curiculum Vitae</h1></li>
-									<li>Vælg årstal</li>
-								</ul>	
-							</div>
-							<div class="cv__cv--input right">
-								    <form class="cv__cv--dropdown">
-									    <select
-											ng-model="year"
-											ng-change="updateList(year)"
-											ng-options="year for year in yearsList">
-											<option value="">Alle år</option>
-										</select>
-								    </form>
-							</div>
-						</div>
+					<div class="cv__cv--heading left">
+						<ul class="list">
+							<li><h1>Curiculum Vitae</h1></li>
+							<li>Vælg årstal</li>
+						</ul>	
+					</div>
+					<div class="cv__cv--input right">
+					    <form class="cv__cv--dropdown">
+						    <select
+								ng-model="year"
+								ng-change="updateList(year)"
+								ng-options="year for year in yearsList">
+								<option value="">Alle år</option>
+							</select>
+					    </form>
+					</div>
 				</section>
 				<section class="cv__wrapper bottom">
 						<table class="cv__cv--table">
