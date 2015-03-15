@@ -2,29 +2,36 @@ $ns: 'navigation';
 
 .#{$ns} {
 	@include clearfix;
-	  height: 3.75rem;
-	  line-height: 3.75rem;
+	  height: 60px;
+	  line-height: 60px;
 	  position: relative;
 	  background: #FFFFFF;
 	  margin-bottom: 0;
 	  text-align: center;
+	  padding-right: 60px;
 }
 .#{$ns}__header {
-	  border-top: 10px solid #00B5A7;
+	  border-top: 10px solid #000;//#00B5A7;
 	  background: #fff;
 	  position: relative;
 }
 .#{$ns}__links {
-  line-height: 3.75rem;
+  line-height: 60px;
   text-decoration: none;
   text-align: center;
-    color: #005869;
-	padding: 12px 0 12px 0;
-	padding-left: 1.25rem;
+    color: #000; //#005869;
+	padding: 0 12px;
 	font-family: "Open Sans", sans-serif;
 	font-size: 0.8125rem;
 	font-weight: normal;
 	text-transform: uppercase;
+	display:inline-block;
+	&:hover,
+	.current{
+		background-color: #000; //#00B5A7;
+		color:#fff;
+	}
+	&.home {width:60px;}
   }
  
 
