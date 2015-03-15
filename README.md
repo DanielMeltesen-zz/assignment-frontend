@@ -10,7 +10,7 @@ My first encounter with AngularJs, so be gentle. One th things I would've liked 
 But hey this is what you get.
 
 ## Where to find the assignment ?
-I've created a smalle site at ourlaborisjoy.danielmeltesen.dk, where you can see the assignment live.
+I've created a smalle site at http://ourlaborisjoy.danielmeltesen.dk, where you can see the assignment live.
 And I'm Creating a pull Request to your Repo this way you can get it aswell.
 
 ## Where to find more about me ?
