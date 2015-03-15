@@ -1,0 +1,22 @@
+$ns: 'intro';
+
+.#{$ns}{ 
+	padding: 240px 0 200px 0;
+	text-align:center;
+	background-color: $white;
+}
+.#{$ns}__lead{ 
+	margin-bottom: 25px;
+	font-family: $font-family-droid;
+	font-size: 40px;
+	font-style: italic;
+	line-height: 40px;
+}
+.#{$ns}__heading{ 
+	margin-bottom: 50px;
+	text-transform: uppercase;
+	font-family: $font-family-montserrat;
+	font-size: 75px;
+	font-weight: 700;
+	line-height: 75px;
+}
