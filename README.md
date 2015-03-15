@@ -1,5 +1,5 @@
 # assignment-frontend
-The assignment set by Ou Labor Is Joy, have been solved.
+The assignment set by Our Labor Is Joy, have been solved.
 
 ## Static HTML
 The simple CV Widget have been made with static HTML within the /html/ folder.
