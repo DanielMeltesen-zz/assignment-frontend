@@ -3,31 +3,80 @@
 	<head>
 		<title>JoyLabs assignment - Firstname Lastname</title>
 
-		<link rel="stylesheet" type="text/css" href="/assets/css/app.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/app.css">
 	</head>
 
 	<body>
 		<div ng-app="ngAppAssignment">
-			<div ng-controller="assignmentController">
-				<p>Your implementation.</p>
+			<div class="cv" ng-controller="assignmentController">
+				<section class="cv__wrapper top">
+					<div class="cv__user">
+						<img src="assets/images/user.png">
+						<div>
+						{{user}}
+							<ul class="list">
+								<li><h1>Fornavn Efternavn</h1></li>
+								<li>By</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<section class="cv__wrapper">
+					<div class="cv__cv">
+							<div class="cv__cv--heading left">
+								<ul class="list">
+									<li><h1>Headline</h1></li>
+									<li>Desc</li>
+								</ul>	
+							</div>
+							<div class="cv__cv--input right">
+								    <form class="cv__cv--dropdown">
+									    <select
+											ng-model="year"
+											ng-change="updateList(year)"
+											ng-options="year for year in yearsList">
+											<option value="">All</option>
+										</select>
+								    </form>
+							</div>
+						</div>
+				</section>
+				<section class="cv__wrapper bottom">
+						<ul>
+							<li ng-repeat="job in filteredList">
+								{{job}}
+							</li>
+						</ul>
 
-				{{user}}
-
-
-				<select
-					ng-model="year"
-					ng-change="updateList(year)"
-					ng-options="year for year in yearsList">
-					<option value="">All</option>
-				</select>
-
-				<ul>
-					<li ng-repeat="job in filteredList">
-						{{job}}
-					</li>
-				</ul>
-
-
+						<table class="cv__cv--table">
+							<thead>
+								<tr>
+									<th>Subject</th>
+									<th class="right">Date</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td><span>Subject</span>, desc</td>
+									<td class="right"><span>#### - ####</span></td>
+								</tr>
+								<tr>
+									<td><span>Subject</span>, desc</td>
+									<td class="right"><span>#### - ####</span></td>
+								</tr>
+							</tbody>
+						</table>
+					<div class="cv__cta">
+						<a href="www.mydomain.com" class="button left">
+							<h1>Visit</h1>
+							www.domain.com
+						</a>
+						<a href="#" class="button blue right">
+							<h1>Download</h1>
+							Curiculum Vitae 2015
+						</a>
+					</div>
+				</section>
 			</div>
 		</div>
 	</body>
