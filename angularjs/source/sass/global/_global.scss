@@ -1,6 +1,7 @@
 body { 
 	font-family:$body-font-family;
 	background-color: $body-bg;
+	margin:0;
 
 	& ul {
 		 padding-left: 0;

@@ -1,0 +1,32 @@
+$ns: 'navigation';
+
+.#{$ns} {
+	@include clearfix;
+	  height: 3.75rem;
+	  line-height: 3.75rem;
+	  position: relative;
+	  background: #FFFFFF;
+	  margin-bottom: 0;
+	  text-align: center;
+}
+.#{$ns}__header {
+	  border-top: 10px solid #00B5A7;
+	  background: #fff;
+	  position: relative;
+}
+.#{$ns}__links {
+  line-height: 3.75rem;
+  text-decoration: none;
+  text-align: center;
+    color: #005869;
+	padding: 12px 0 12px 0;
+	padding-left: 1.25rem;
+	font-family: "Open Sans", sans-serif;
+	font-size: 0.8125rem;
+	font-weight: normal;
+	text-transform: uppercase;
+  }
+ 
+
+
+

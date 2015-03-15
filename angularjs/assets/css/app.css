@@ -41,36 +41,37 @@
 body {
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   background-color: #e8e8e8;
+  margin: 0;
 }
-/* line 5, ../../source/sass/global/_global.scss */
+/* line 6, ../../source/sass/global/_global.scss */
 body ul {
   padding-left: 0;
   margin-top: 0;
 }
-/* line 8, ../../source/sass/global/_global.scss */
+/* line 9, ../../source/sass/global/_global.scss */
 body ul li {
   list-style-type: none;
 }
 
-/* line 17, ../../source/sass/global/_global.scss */
+/* line 18, ../../source/sass/global/_global.scss */
 h1,
 .h1 {
   font-size: 1rem;
 }
 
-/* line 21, ../../source/sass/global/_global.scss */
+/* line 22, ../../source/sass/global/_global.scss */
 h2,
 .h2 {
   font-size: 24px;
   font-size: 2.4rem;
 }
 
-/* line 33, ../../source/sass/global/_global.scss */
+/* line 34, ../../source/sass/global/_global.scss */
 .left {
   float: left;
 }
 
-/* line 36, ../../source/sass/global/_global.scss */
+/* line 37, ../../source/sass/global/_global.scss */
 .right {
   float: right;
 }
@@ -157,6 +158,48 @@ table tr td {
   line-height: rem-calc(18);
 }
 
+/* line 3, ../../source/sass/global/_navigation.scss */
+.navigation {
+  overflow: hidden;
+  height: 3.75rem;
+  line-height: 3.75rem;
+  position: relative;
+  background: #FFFFFF;
+  margin-bottom: 0;
+}
+/* line 29, ../../source/sass/global/_global.scss */
+.navigation:before, .navigation:after {
+  content: " ";
+  display: table;
+}
+/* line 30, ../../source/sass/global/_global.scss */
+.navigation:after {
+  clear: both;
+}
+
+/* line 12, ../../source/sass/global/_navigation.scss */
+.navigation__header {
+  border-top: 10px solid #00B5A7;
+  background: #fff;
+  position: relative;
+}
+
+/* line 17, ../../source/sass/global/_navigation.scss */
+.navigation__links {
+  line-height: 3.75rem;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  width: 100%;
+  color: #005869;
+  padding: 12px 0 12px 0;
+  padding-left: 1.25rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8125rem;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
 /* line 3, ../../source/sass/module/_cv.scss */
 .cv {
   background-color: white;
@@ -172,12 +215,12 @@ table tr td {
 .cv__wrapper {
   padding: 20px;
 }
-/* line 28, ../../source/sass/global/_global.scss */
+/* line 29, ../../source/sass/global/_global.scss */
 .cv__wrapper:before, .cv__wrapper:after {
   content: " ";
   display: table;
 }
-/* line 29, ../../source/sass/global/_global.scss */
+/* line 30, ../../source/sass/global/_global.scss */
 .cv__wrapper:after {
   clear: both;
 }
@@ -195,12 +238,12 @@ table tr td {
 .cv__user {
   padding: 10px 0 5px 0;
 }
-/* line 28, ../../source/sass/global/_global.scss */
+/* line 29, ../../source/sass/global/_global.scss */
 .cv__user:before, .cv__user:after {
   content: " ";
   display: table;
 }
-/* line 29, ../../source/sass/global/_global.scss */
+/* line 30, ../../source/sass/global/_global.scss */
 .cv__user:after {
   clear: both;
 }
@@ -259,12 +302,12 @@ table tr td {
   font-size: 11px;
   padding: 20px 0 10px 0;
 }
-/* line 28, ../../source/sass/global/_global.scss */
+/* line 29, ../../source/sass/global/_global.scss */
 .cv__cta:before, .cv__cta:after {
   content: " ";
   display: table;
 }
-/* line 29, ../../source/sass/global/_global.scss */
+/* line 30, ../../source/sass/global/_global.scss */
 .cv__cta:after {
   clear: both;
 }
