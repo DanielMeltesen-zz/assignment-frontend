@@ -42,7 +42,6 @@ module.exports = function(grunt) {
                 sassDir: 'source/sass',
                 cssDir: 'assets/css',
                 imagesDir: 'assets/images',
-                specify: ['source/sass/screen.scss'],
                 relativeAssets: true,
                 noLineComments: true,
                 bundleExec: true
