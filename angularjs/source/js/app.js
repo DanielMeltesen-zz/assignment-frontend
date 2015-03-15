@@ -9,28 +9,108 @@
 		function($scope) {
 
 			$scope.user = {
-				'firstname': 'Your firstname',
-				'lastname': 'Your lastname',
-				'city': 'Your city',
-				'website': 'www.domain.com',
-				'cv': 'www.domain.com/cv.pdf'
+				'firstname': 'Daniel',
+				'lastname': 'Meltesen',
+				'city': 'Ågård',
+				'website': 'www.DanielMeltesen.dk',
+				'cv': 'www.DanielMeltesen.dk'
 			}
 
 			$scope.list = {
 				"1": {
-					"title": "Vestas A/S",
-					"desc": "Frontend developer",
+					"title": "Grene Danmark A/S",
+					"desc": "Frontend Designer/Udvikler",
 					"year": 2015
 				},
 				"2": {
-					"title": "K&oslash;benhavn Kommune",
-					"desc": "Frontend developer",
+					"title": "P.Grene A/S",
+					"desc": "Frontend Designer/Udvikler",
 					"year": 2014
 				},
 				"3": {
-					"title": "K&oslash;benhavn Kommune",
-					"desc": "Frontend developer",
+					"title": "P.Grene A/S",
+					"desc": "Frontend Designer/Udvikler",
 					"year": 2013
+				},
+				"4": {
+					"title": "P.Grene A/S",
+					"desc": "Frontend Designer/Udvikler",
+					"year": 2012
+				},
+				"5": {
+					"title": "P.Grene A/S",
+					"desc": "Frontend Designer/Udvikler",
+					"year": 2011
+				},
+				"6": {
+					"title": "P.Grene A/S",
+					"desc": "Frontend Designer/Udvikler",
+					"year": 2010
+				},
+				"7": {
+					"title": "Fastansat lærervikar",
+					"desc": "Askov Malt Skole",
+					"year": 2009
+				},
+				"8": {
+					"title": "Værnepligtig",
+					"desc": "Kamptropperne Holstebro",
+					"year": 2009
+				},
+				"9": {
+					"title": "Praktik",
+					"desc": "Birch Reklame",
+					"year": 2008
+				},
+				"10": {
+					"title": "MultimedieDesigner",
+					"desc": "Århus Erhvervsakademi",
+					"year": 2008
+				},
+				"11": {
+					"title": "Proff. Basketballspiller",
+					"desc": "Bakken Bears",
+					"year": 2008
+				},
+				"12": {
+					"title": "MultimedieDesigner",
+					"desc": "Århus Erhvervsakademi",
+					"year": 2007
+				},
+				"13": {
+					"title": "Proff. Basketballspiller",
+					"desc": "Bakken Bears",
+					"year": 2007
+				},
+				"14": {
+					"title": "Studerende / Spiller",
+					"desc": "University of Regina",
+					"year": 2007
+				},
+				"15": {
+					"title": "Studerende / Spiller",
+					"desc": "University of Regina",
+					"year": 2006
+				},
+				"16": {
+					"title": "Proff. Basketballspiller",
+					"desc": "Bakken Bears",
+					"year": 2005
+				},
+				"17": {
+					"title": "Proff. Basketballspiller",
+					"desc": "Bakken Bears",
+					"year": 2004
+				},
+				"18": {
+					"title": "Proff. Basketballspiller",
+					"desc": "Bakken Bears",
+					"year": 2003
+				},
+				"19": {
+					"title": "Student",
+					"desc": "Rosborg Amtsgymnasium",
+					"year": 2003
 				}
 			}
 

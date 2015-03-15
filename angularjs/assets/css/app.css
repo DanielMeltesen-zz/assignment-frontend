@@ -163,7 +163,7 @@ table tr {
 /* line 99, ../../source/sass/global/_table.scss */
 table tr th,
 table tr td {
-  padding: 10px;
+  padding: 10px 15px;
   font-size: 12px;
   color: #222222;
   text-align: left;
@@ -177,7 +177,6 @@ table tr td.right {
 table tr th span,
 table tr td span {
   font-weight: bold;
-  padding: 0 5px;
 }
 /* line 112, ../../source/sass/global/_table.scss */
 table tr.even, table tr.alt, table tr:nth-of-type(even) {

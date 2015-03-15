@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	<meta charset="ISO-8859-1"> 
+		<meta charset="UTF-8">
 		<title>JoyLabs assignment - Firstname Lastname</title>
 
 		<link rel="stylesheet" type="text/css" href="assets/css/app.css">
@@ -13,11 +13,10 @@
 				<section class="cv__wrapper top">
 					<div class="cv__user">
 						<img src="assets/images/user.png">
-						<div>
-						{{user}}
-							<ul class="list">
-								<li><h1>Fornavn Efternavn</h1></li>
-								<li>By</li>
+						<div ng-model="user">
+							<ul class="list" >
+								<li ><h1>{{user.firstname}} {{user.lastname}}</h1></li>
+								<li>{{user.city}}</li>
 							</ul>
 						</div>
 					</div>
@@ -26,8 +25,8 @@
 					<div class="cv__cv">
 							<div class="cv__cv--heading left">
 								<ul class="list">
-									<li><h1>Headline</h1></li>
-									<li>Desc</li>
+									<li><h1>Curiculum Vitae</h1></li>
+									<li>Vælg årstal</li>
 								</ul>	
 							</div>
 							<div class="cv__cv--input right">
@@ -36,41 +35,31 @@
 											ng-model="year"
 											ng-change="updateList(year)"
 											ng-options="year for year in yearsList">
-											<option value="">All</option>
+											<option value="">Alle år</option>
 										</select>
 								    </form>
 							</div>
 						</div>
 				</section>
 				<section class="cv__wrapper bottom">
-						<ul>
-							<li ng-repeat="job in filteredList">
-								{{job}}
-							</li>
-						</ul>
-
 						<table class="cv__cv--table">
 							<thead>
 								<tr>
-									<th>Subject</th>
-									<th class="right">Date</th>
+									<th>Ansat hos</th>
+									<th class="right">Dato</th>
 								</tr>
 							</thead>
 							<tbody>
-								<tr>
-									<td><span>Subject</span>, desc</td>
-									<td class="right"><span>#### - ####</span></td>
-								</tr>
-								<tr>
-									<td><span>Subject</span>, desc</td>
-									<td class="right"><span>#### - ####</span></td>
+								<tr ng-repeat="job in filteredList">
+									<td><span>{{job.title}}</span><br />{{job.desc}}</td>
+									<td class="right"><span>{{job.year}}</span></td>
 								</tr>
 							</tbody>
 						</table>
-					<div class="cv__cta">
-						<a href="www.mydomain.com" class="button left">
+					<div class="cv__cta" ng-model="user">
+						<a href="http://{{user.website}}" class="button left">
 							<h1>Visit</h1>
-							www.domain.com
+							<span>{{user.website}}</span>
 						</a>
 						<a href="#" class="button blue right">
 							<h1>Download</h1>
