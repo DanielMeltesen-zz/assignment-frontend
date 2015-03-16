@@ -44,7 +44,7 @@ module.exports = function(grunt) {
                 imagesDir: 'assets/images',
                 relativeAssets: true,
                 noLineComments: true,
-                bundleExec: true
+                bundleExec: true,
             },
             watch: {
                 options: {
