@@ -6,15 +6,14 @@ The simple CV Widget have been made with static HTML within the /html/ folder.
 I've only used test content.
 
 ## AngularJS
-My first encounter with AngularJs, so be gentle. One th things I would've liked to figure out is someway of looping through .list looking at an array for year, and then splitting by encounter.
+My first encounter with AngularJs, so be gentle. One thing I would've liked to figure out is someway of looping through .list looking at an array for year, and then splitting by encounter.
 But hey this is what you get.
 
 ## Where to find the assignment ?
-I've created a smalle site at http://ourlaborisjoy.danielmeltesen.dk, where you can see the assignment live.
-And I'm Creating a pull Request to your Repo this way you can get it aswell.
+I've created a small site at http://ourlaborisjoy.danielmeltesen.dk, where you can see the assignment live.
 
 ## Where to find more about me ?
 Go visit www.DanielMeltesen.dk
 
-## But where is the .pdf CV
-Really?? if the site is not enough let me know.
+## CV ?
+Can be in /assets/pdf/xyz or as a link at the sites.
