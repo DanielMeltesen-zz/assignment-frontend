@@ -1,6 +1,9 @@
 $ns: 'cv';
 
 .#{$ns}{ 
+	margin-left: calc(100vw - 100%);
+}
+.#{$ns}__widget{ 
 	background-color:$white;
 	width: 340px;
 	margin: 150px auto;
